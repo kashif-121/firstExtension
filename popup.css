@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 500px;
+    width: 500px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #C7CDBA;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#tasks-container{
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    background: #fff;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}

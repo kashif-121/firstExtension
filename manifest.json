@@ -1,0 +1,22 @@
+{
+  "name": "Getting Started Example",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icon1.png",
+      "32": "/images/icon1.png",
+      "48": "/images/icon1.png",
+      "128": "/images/icon1.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icon1.png",
+    "32": "/images/icon1.png",
+    "48": "/images/icon1.png",
+    "128": "/images/icon1.png"
+  },
+  "permissions": ["activeTab"]
+}
